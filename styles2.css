@@ -1,0 +1,103 @@
+.products{
+    width: 1200px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.products-title{
+    text-align: center;
+}
+h3{
+    font-size: 28px;
+    line-height: 1.2;
+}
+.products-container{
+    display: flex;
+    justify-content: center;
+    background: #fffef2;
+}
+.products-container-inner{
+    display: flex;
+    flex-direction: column;
+}
+.product-outer-card{
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+}
+.product-side-title{
+    width: 300px;
+    margin-right: 50px;
+    font-size: 24px;
+    color: #000;
+}
+.product-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 184px;
+    height: 160px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+.product-card-title{
+    margin-top: 5px;
+    font-size: 16px!important;
+    line-height: 1.3em;
+    text-align: center;
+}
+.find-more{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+    color: #ee3425;
+}
+.trusted-section{
+    margin-bottom: 50px;
+}
+.trusted-companys{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.1rem;
+    overflow: hidden;
+}
+.trusted-companys img{
+    width: 100px;
+    height: 100%;
+}
+.get-started{
+    min-width: 72px;
+    height: 36px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    color: #fff!important;
+    background: #ee3425;
+    border: 1px solid #ee3425;
+    border-radius: 4px!important;
+}
+button{
+    font-family: "PT Sans",sans-serif;
+    font-size: 14px!important;
+    font-weight: 700!important;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

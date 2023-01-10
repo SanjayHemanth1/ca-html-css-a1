@@ -1,0 +1,78 @@
+.footer-container-one{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0 50px 50px;
+    background: #fbdc00;
+}
+.footer-container-one-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.footer-container-one-card-title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+.footer-container-one-card-para{
+    margin: 8px 0;
+}
+.footer-container-one-card-para span{
+    margin-top: 8px;
+    font-weight: 400;
+    color: #000;
+    display: block;
+}
+.footer-container-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+    background-color: #ebbe00;
+}
+.footer-container-two-card{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container-two-card div{
+    line-height: 2rem;
+    color: #000;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 30px;
+    background: #ebbe00;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    margin-left: 10px;
+    font-family: "Ubuntu",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    list-style-type: none;
+}
+.copyright span{
+    color: #000;
+    margin-right: 5px;
+}
+.footer-right{
+    padding: 8px 30px;
+}
+.footer-right svg{
+    margin-right: 4px;
+    color: #000;
+}

@@ -1,0 +1,97 @@
+.howIt-works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.works-button-container{
+    display: flex;
+    justify-content: space-between;
+}
+.works-button{
+    width: 200px;
+    padding: 20px;
+    margin: 0 20px;
+    color: #000!important;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    height: 36px;
+}
+.yellow-button{
+    background-color: #fbdc00!important;
+    border: #fbdc00!important;
+}
+.gray-button{
+    background: #e5dfdf!important;
+    border: gray!important;
+}
+.stages-container{
+    position: relative;
+    display: flex;
+}
+.card-up{
+    margin-bottom: 120px;
+}
+.step-card{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+}
+.stage-num{
+    font-weight: 600;
+    color: #ee3425;
+}
+.stage-name{
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px;
+    margin: 0;
+    list-style-position: outside;
+}
+.stage-name div{
+    padding-left: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.step-card span{
+    display: flex;
+}
+.stage-lines{
+    padding-bottom: 5px;
+    padding-left: 8px;
+    margin: 0;
+}
+.stages-laptop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stages-laptop img{
+    width: 560px;
+    height: 320px;
+}
+.arrow1{
+    position: absolute;
+    top: 104px;
+    left: 300px;
+}
+.arrow2{
+    position: absolute;
+    bottom: 116px;
+    left: 300px;
+}
+.arrow3{
+    position: absolute;
+    top: 104px;
+    right: 300px;
+}
+.arrow4{
+    position: absolute;
+    bottom: 116px;
+    right: 300px;
+}
